@@ -1,8 +1,7 @@
 "use client"
 import { useTheme } from 'next-themes';
 import { motion, useMotionValue, useTransform } from 'framer-motion';
-import { Mail, Moon, Sun } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, } from 'lucide-react';
 
 const Portfolio = () => {
   const { theme, setTheme } = useTheme();
@@ -107,7 +106,7 @@ const Portfolio = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.5 }}
           >
-            <span className='text-pink-500'>My motto: </span><span className='text-green-400'>"One at a time & one more time."</span>
+            <span className='text-pink-500'>My motto: </span><span className='text-green-400'>&quot;One at a time & one more time.&quot;</span>
           </motion.p>
         </motion.section>
 

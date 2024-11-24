@@ -75,4 +75,13 @@ const CONTACT = {
   email: "me@example.com",
 };
 
-export default {CONTACT, HERO_CONTENT, PROJECTS, EXPERIENCES, ABOUT_TEXT}
+// Assign the object to a variable before exporting
+const Data = {
+  CONTACT,
+  HERO_CONTENT,
+  PROJECTS,
+  EXPERIENCES,
+  ABOUT_TEXT,
+};
+
+export default Data;
